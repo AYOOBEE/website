@@ -27,7 +27,8 @@ function generateSitemap() {
   }));
 
   const reviewPages = [
-    { url: '/reviews/adskull-vs-smartly-io', lastmod: '2026-05-14', changefreq: 'weekly', priority: 0.8 },
+    { url: '/reviews/adskull-vs-smartly-io',  lastmod: '2026-05-14', changefreq: 'weekly', priority: 0.8 },
+    { url: '/best/ai-media-buyer-tools',       lastmod: '2026-05-14', changefreq: 'weekly', priority: 0.9 },
   ];
 
   const allPages = [...staticPages, ...articlePages, ...categoryPages, ...reviewPages];
