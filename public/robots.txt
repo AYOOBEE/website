@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Block admin areas if you add any
+Disallow: /api/
+
+Sitemap: https://affiliatepro.com/sitemap.xml
